@@ -4,8 +4,41 @@
     <meta charset="UTF-8">
     <title>Adobong Manok (Filipino Chicken Adobo)</title>
 </head>
+    <style>
+ /* BACK TO PORTFOLIO BUTTON (Top Right Floating Badge / Nav Button) */
+    .back-btn {
+      position: fixed;
+      top: 20px;
+      right: 20px;
+      z-index: 100;
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: #ffffff;
+      color: #486581;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: clamp(12px, 1.6vw, 14px);
+      padding: 10px 18px;
+      border-radius: 9999px;
+      border: 2px solid #e6b94a;
+      box-shadow: 0 4px 16px rgba(71, 85, 105, 0.15);
+      transition: all 0.2s ease;
+    }
+    .back-btn:hover {
+      background: #e6b94a;
+      color: #ffffff;
+      transform: translateY(-2px);
+      box-shadow: 0 6px 20px rgba(180, 134, 40, 0.3);
+    }
+    .back-btn:active {
+      transform: translateY(0);
+    }
+    </style>    
 <body>
-
+<a class="back-btn" href="https://imponrusthjadeh.github.io/FinalProject/#projects" title="Back to Portfolio">
+<span>← Back to Portfolio</span>
+</a>
 <h1>Adobong Manok</h1>
 <p>Filipino Chicken Adobo  a classic savory and tangy dish</p>
 
